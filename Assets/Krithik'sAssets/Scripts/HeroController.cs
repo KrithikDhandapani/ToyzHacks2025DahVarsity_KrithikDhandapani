@@ -203,7 +203,7 @@ public class HeroController : MonoBehaviour
 
     private IEnumerator HoverRoutine()
     {
-        // Smoke
+        // Smokee
         if (hoverSmokePrefab)
         {
             activeHoverSmoke = Instantiate(hoverSmokePrefab, transform.position, Quaternion.identity, transform);
